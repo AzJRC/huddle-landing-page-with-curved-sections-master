@@ -1,0 +1,97 @@
+/*normalization*/
+
+html, body, main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+}
+
+:root {
+    box-sizing: border-box;
+    font-size: 20px;
+
+    --pinkcolor: hsl(322,100%,66%);
+    --lightpink: hsl(321, 100%, 78%);
+    --lightred: hsl(0, 100%, 63%);
+    --darkcyan: hsl(192, 100%, 9%);
+    --paleblue: hsl(207, 100%, 98%);
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    font-size: inherit;
+
+    border: 1px solid green; /*Change at the end*/
+}
+
+/*General clases*/
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container.flex-row {
+    flex-direction: row;
+}
+
+.flex-container.flex-column {
+    flex-direction: column;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--lightpink);
+    border: 1px solid var(--lightpink);
+    border-radius: 1rem;
+    margin: auto;
+    background-color: #fff;  
+}
+
+.btn:hover {
+    border: 1px solid var(--pinkcolor);
+    color: var(--pinkcolor);
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Header*/
+
+#page-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+#logo-container {
+    width: 70%;
+}
+
+#logo {
+    height: 100%;
+}
+
+#button_1 {
+    margin: 0 auto;
+}
+
+/*Main*/
+
+main {
+    margin: 150px 0;
+}
+
+/*Footer*/
