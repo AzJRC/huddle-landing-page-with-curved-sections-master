@@ -14,62 +14,86 @@
 <body>
   
   <header id="page-header" class="flex-container flex-row">  <!--Here starts the header-->
-   <figure id="logo-container">
+   <figure id="first_figure">
     <img src="./images/logo.svg" alt="Logo of the page" id="logo" />
      </figure>
-   <button id="button_TIF" class="btn" name="Try It Free">Try It Free</button>
+   <button id="first_button" class="btn TIF_btn" name="Try It Free">Try It Free</button>
   </header>
+
   <main>
-    <section> <!--Here starts the first section-->
-      <h1></h1>
-      <p></p>
-      <button></button>
-      <figure>
-        <img src="" alt="" />
+    <section id="first-sect" class="flex-container flex-column"> <!--Here starts the first section-->
+      <h1 id="first_title">Build The Community Your Fans Will Love</h1>
+      <p id="first_parap">
+        Huddle re-imagines the way we build communities. You have a voice, but so does 
+  your audience. Create connections with your users as you engage in genuine discussion.
+      </p>
+      <button id="second_button" class="btn GSFF_button">Get Started For Free</button>
+      <figure id="second_figure">
+        <img src="./images/screen-mockups.svg" alt="Screen mockups" id="img-SM" />
       </figure>
     </section>
 
-    <section> <!--data section-->
-      <div>
-        <img src="" alt=""> <!--SVG logo-->
-        <h2></h2>
-        <p></p>
+    <section id="data-section"> <!--data section-->
+      <div id="data-comm">
+        <img src="" alt="" class="data-logos"> <!--SVG logo-->
+        <h2 class="data-subtitle">1.4k+</h2>
+        <p class="data-parap">Communities Formed</p>
       </div>
-      <div>
-        <img src="" alt=""> <!--SVG logo-->
-        <h2></h2>
-        <p></p>
+      <div id="data-mess">
+        <img src="" alt="" class="data-logos"> <!--SVG logo-->
+        <h2 class="data-subtitle">2.7m+</h2>
+        <p class="data-parap">Messages Sent</p>
       </div>
-    </section>
- 
-    <section> <!--Here starts the first wavy sections-->
-      <div></div> <!--top wave-->
-      <div>
-        <h2></h2>
-        <p></p>
-        <figure></figure>
-      </div>
-      <div></div> <!--Bottom wave-->
     </section>
 
-    <section> <!--Here starts the second wavy sections-->
-      <div></div> <!--top wave-->
-      <div>
-        <h2></h2>
-        <p></p>
-        <figure></figure>
+    <section class="wavy-sections flex-container column"> <!--Here starts the first wavy sections-->
+      <div class="top-wave" role="region"></div> <!--top wave-->
+      <div class="about">
+        <h2 class="about-titles">Grow Together</h2>
+        <p class="about-parap">
+  Generate meaningful discussions with your audience and build a strong, loyal community. 
+  Think of the insightful conversations you miss out on with a feedback form.
+        </p>
+        <figure class="img-container-about">
+          <img src="./images/illustration-grow-together.svg" alt="Image about growing togheter" class="about-img">
+        </figure>
       </div>
-      <div></div> <!--Bottom wave-->
+      <div class="bottom-wave" role="region"></div> <!--Bottom wave-->
     </section>
 
-    <section> <!--Here starts the third wavy sections-->
-      <div></div> <!--top wave-->
-      <div>
-        <h2></h2>
-        <p></p>
-        <figure></figure>
+    <section class="wavy-sections flex-container flex-column"> <!--Here starts the second wavy sections-->
+      <div class="top-wave" role="region"></div> <!--top wave-->
+      <div class="about">
+        <h2 class="about-title">Flowing Conversations</h2>
+        <p class="about-parap">
+  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+  just-in-time loading for a more natural flow.
+        </p>
+        <figure class="img-container-about">
+          <img src="./images/illustration-flowing-conversation.svg" alt="Image about having a flow conversation" class="about-img">
+        </figure>
       </div>
-      <div></div> <!--Bottom wave-->
+      <div class="bottom-wave" role="region"></div> <!--Bottom wave-->
+    </section>
+
+    <section class="wavy-sections flex-container flex-column"> <!--Here starts the third wavy sections-->
+      <div class="top-wave" role="region"></div> <!--top wave-->
+      <div class="about">
+        <h2 class="about-title">Your Users</h2>
+        <p class="about-parap">
+          It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+          once signed in to your app, your users can start chatting immediately.
+        </p>
+        <figure class="img-container-about">
+          <img src="./images/illustration-your-users.svg" alt="image about users" class="about-img">
+        </figure>
+      </div>
+      <div class="bottom-wave" role="region"></div> <!--Bottom wave-->
+    </section>
+
+    <section id="final-section" class="flex-container flex-column">
+      <h1 class="title">Ready To Build Your Community?</h1>
+      <button class="btn GSFF_btn">Get Started For Free</button>
     </section>
   </main>
 
@@ -82,36 +106,6 @@
 </html>
 
 <!--
-   Try it free
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
-
-  Get Started For Free
-
-  1.4k+
-  Communities Formed
-
-  2.7m+
-  Messages Sent
-
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
-
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-  Get Started For Free
-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
   vestibulum a, ultrices quis sem.
   
